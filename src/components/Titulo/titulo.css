@@ -1,0 +1,33 @@
+.logo {
+  max-width: 100%;
+  height: auto; 
+  width: 30vw; 
+  min-width: 100px;
+  padding: 0.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 40vw; 
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 60vw; 
+  }
+}
+
+
+  .rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 60em;
+    font-style: normal;
+  }
+  

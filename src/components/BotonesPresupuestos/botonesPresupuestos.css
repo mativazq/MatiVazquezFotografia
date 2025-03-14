@@ -1,0 +1,17 @@
+.buttons {
+    width: 25em;
+    height: 5em;
+    background-color: transparent;
+    border: 2px solid #00ffcc;
+    padding: 0.5em 1em;
+    border-radius: 3em;
+    margin: 0.5em;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+.font {
+    font-family: "Rock Salt", cursive;
+    font-weight: 20em;
+    font-style: normal;
+}
