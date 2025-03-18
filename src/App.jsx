@@ -1,6 +1,7 @@
 
 import './App.css'
 import BotonesPresupuestos from './components/BotonesPresupuestos/BotonesPresupuestos'
+import Contacto from './components/Contacto/Contacto'
 import Titulo from './components/Titulo/Titulo'
 
 
@@ -10,6 +11,7 @@ function App() {
     <>
     <Titulo />
     <BotonesPresupuestos />
+    <Contacto />
     </>
   )
 }
