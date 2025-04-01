@@ -9,13 +9,10 @@ import Embarazo from "./components/Embarazo/Embarazo";
 import Fiesta from "./components/FiestaPrivada/Fiesta";
 import Recepcion from "./components/Recepcion/Recep";
 import Sesion from "./components/SesionIndividual/Sesion";
-import Header from "./components/Header/Header";
-import Galeria from "./components/Galeria/Galeria";
 
 function App() {
   return (
     <Router>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/casamiento" element={<Casamiento />} />
@@ -24,7 +21,6 @@ function App() {
         <Route path="/fiesta" element={<Fiesta />} />
         <Route path="/recep" element={<Recepcion />} />
         <Route path="/sesion" element={<Sesion />} />
-        <Route path="/galeria" element={<Galeria />} />
       </Routes>
     </Router>
   );
