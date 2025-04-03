@@ -7,7 +7,7 @@ const Titulo = () => {
     <>
       <h1 className="rock-salt-regular">Bienvenidos a Mati Vazquez Fotografia</h1>
       <div>
-        <a href="https://react.dev" target="_blank">
+        <a>
           <img src={mvLogo} className="logo" alt="logo MV" />
         </a>
       </div>

@@ -51,6 +51,8 @@ const Contacto = () => {
   };
 
   return (
+    <div className="contacto-container">
+    <h1 className="font">Contacto:</h1>  
     <form onSubmit={handleSubmit} className="formulario">
       <label>
         Nombre:
@@ -80,6 +82,7 @@ const Contacto = () => {
 
       {successMessage && <p className="success">{successMessage}</p>}
     </form>
+    </div>
   );
 };
 
