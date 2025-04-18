@@ -14,7 +14,9 @@ const BotonesPresupuestos = () => {
       <button className="buttons" onClick={() => navigate("/embarazo")}>Embarazo</button>
       <button className="buttons" onClick={() => navigate("/fiesta")}>Fiesta Privada</button>
       <button className="buttons" onClick={() => navigate("/sesion")}>Sesión Individual</button>
-      <p className="texto">
+      
+      <div  className="texto">
+      <p>
         Los siguientes presupuestos tienen un valor de 10 días posterior a la fecha de consulta.
       </p>
       <p>
@@ -24,6 +26,7 @@ const BotonesPresupuestos = () => {
         Transcurrido ese tiempo, el valor se actualizará con un incremento mensual del 15% sobre el saldo restante.
       </p>
       <p>Al señar el mismo se reserva la exclusividad de la fecha y se coordina una reunión entre partes.</p>
+      </div>
     </>
   );
 };

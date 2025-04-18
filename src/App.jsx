@@ -9,6 +9,7 @@ import Embarazo from "./components/Embarazo/Embarazo";
 import Fiesta from "./components/FiestaPrivada/Fiesta";
 import Recepcion from "./components/Recepcion/Recep";
 import Sesion from "./components/SesionIndividual/Sesion";
+import GaleriaCasamientos from "./components/GaleriaCasamiento/GaleriaCasamiento";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/casamiento" element={<Casamiento />} />
+        <Route path="/galeria-casamientos" element={<GaleriaCasamientos />} />
         <Route path="/cumple" element={<Cumple />} />
         <Route path="/embarazo" element={<Embarazo />} />
         <Route path="/fiesta" element={<Fiesta />} />

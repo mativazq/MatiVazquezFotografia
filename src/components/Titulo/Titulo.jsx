@@ -1,6 +1,6 @@
 import React from "react";
 import "./titulo.css";
-import mvLogo from "../../Images/Logo-color2.png";
+import mvLogo from "../../Images/Logo-negro.png";
 
 const Titulo = () => {
   return (

@@ -1,0 +1,40 @@
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .galeria-imagen {
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    object-fit: cover;
+  }
+
+  .galeria-imagen:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+  .volver-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .volver-button {
+    background-color: #646cff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .volver-button:hover {
+    background-color: #4a4eea;
+  }
+  

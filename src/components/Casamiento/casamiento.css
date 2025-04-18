@@ -3,3 +3,8 @@
     font-weight: 20em;
     font-style: normal;
 }
+
+.texto {
+    margin: 6em;
+    font-style: oblique;
+}

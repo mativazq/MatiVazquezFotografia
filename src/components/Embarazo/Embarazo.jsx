@@ -6,7 +6,7 @@ const Embarazo = () => {
   return (
     <div>
       <h1 className="font">Presupuesto para Sesion de Embarazo</h1>
-      <p>Aquí iría la información sobre el presupuesto para Embarazo.</p>
+      <p></p>
       <Link to="/">Volver al inicio</Link>
     </div>
   );

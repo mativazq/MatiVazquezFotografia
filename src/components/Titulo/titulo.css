@@ -9,7 +9,7 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #d2d3e4aa);
 }
 
 @media (max-width: 768px) {
